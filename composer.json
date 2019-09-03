@@ -1,0 +1,39 @@
+{
+    "name": "michielkempen/laravel-enum",
+    "keywords": [
+        "michielkempen",
+        "laravel-enum"
+    ],
+    "homepage": "https://github.com/michielkempen/laravel-enum",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michiel Kempen",
+            "email": "kempenmichiel@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "require-dev": {
+        "orchestra/testbench": "~3.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "MichielKempen\\LaravelEnum\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MichielKempen\\LaravelEnum\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit tests",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
