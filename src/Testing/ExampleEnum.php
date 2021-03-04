@@ -1,6 +1,6 @@
 <?php
 
-namespace MichielKempen\LaravelEnum\Tests;
+namespace MichielKempen\LaravelEnum\Testing;
 
 use MichielKempen\LaravelEnum\Enum;
 

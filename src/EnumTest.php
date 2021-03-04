@@ -1,6 +1,9 @@
 <?php
 
-namespace MichielKempen\LaravelEnum\Tests;
+namespace MichielKempen\LaravelEnum;
+
+use MichielKempen\LaravelEnum\Testing\ExampleEnum;
+use Orchestra\Testbench\TestCase;
 
 class EnumTest extends TestCase
 {
