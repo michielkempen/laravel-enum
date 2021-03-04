@@ -7,9 +7,6 @@ use ReflectionException;
 
 abstract class Enum
 {
-    /**
-     * @return array
-     */
     public static function all(): array
     {
         try {
